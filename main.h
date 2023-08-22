@@ -20,7 +20,7 @@
 
 /**
  * struct fmt - Struct op
- * adel
+ * written by kelvin
  * @fmt: The format.
  * @fn: The function associated.
  */
