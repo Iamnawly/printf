@@ -33,7 +33,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 /**
  * is_digit - this verifies if a character is a digit
  * @c: pointer Char to be evaluated
- * nurudeen
+ * wrritten by kelvin
  * Return: 1, 0 otherwise
  */
 int is_digit(char c)
@@ -46,7 +46,7 @@ int is_digit(char c)
  * convert_size_number - this is asts a number to the size
  * @num: this are numbers to be casted.
  * @size: thus number indicating the type .
- * adel
+ * written by kelvin
  * Return: value of num
  */
 long int convert_size_number(long int num, int size)
@@ -61,7 +61,7 @@ long int convert_size_number(long int num, int size)
  * convert_size_unsgnd -  this Casts a number to the size
  * @num: this shows number to be casted
  * @size: this are number indicating the type to be casted
- * adel
+ * written by kelvin
  * Return: num
  */
 long int convert_size_unsgnd(unsigned long int num, int size)

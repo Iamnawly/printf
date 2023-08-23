@@ -2,14 +2,13 @@
 /**
  * handle_write_char - this prints a string
  * @is_negative: number is negative
- * written by apete
  * @ind: Index buffer
  * @buffer:chars
  * @flags: Flags specifiers
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
+ * written by kelvin
  * Return: chars.
  */
 int handle_write_char(char c, char buffer[],
@@ -53,7 +52,7 @@ int handle_write_char(char c, char buffer[],
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
+ * written by kelvin
  * Return: chars.
  */
 int write_number(int is_negative, int ind, char buffer[],
@@ -86,7 +85,7 @@ int write_number(int is_negative, int ind, char buffer[],
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
+ * written by apete
  * Return: chars.
  */
 int write_num(int ind, char buffer[],
@@ -144,7 +143,7 @@ int write_num(int ind, char buffer[],
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
+ * written by apete
  * Return: chars.
  */
 int write_unsgnd(int is_negative, int ind,
@@ -203,7 +202,7 @@ int write_unsgnd(int is_negative, int ind,
  * @padd: Character represeting the padd
  * @extra_c: character representin extra char
  * @padd_start: pointer index
- * adel
+ * written by apete
  * Return: chars.
  */
 int write_pointer(char buffer[], int ind, int length,
