@@ -1,17 +1,19 @@
 #include "main.h"
+
 /**
  * handle_print - this shows and prints an argument based on its type
  * @fmt: this is a formatted string 
  * @list: this shows the List of arguments to be printed.
  * @ind: pointer
- * team kelvin
+ * team kelvin and abdul
  * @buffer: this is the buffer  to handle print.
  * @flags: this calculates the active flags
  * @width: this gets the width.
  * @precision: this is the precision specification
  * @size: this is the size specifier
- * Return: 1 2;
+ * Return: 1 2
  */
+
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
 	int flags, int width, int precision, int size)
 {

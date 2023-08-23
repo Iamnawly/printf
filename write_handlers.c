@@ -1,20 +1,20 @@
 #include "main.h"
+
 /**
  * handle_write_char - this prints a string
  * @is_negative: number is negative
- * written by apete
  * @ind: Index buffer
  * @buffer:chars
  * @flags: Flags specifiers
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
  * Return: chars.
  */
+
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
-{ /* char is stored at left and paddind at buffer's right */
+{
 	int i = 0;
 	char padd = ' ';
 
@@ -45,7 +45,6 @@ int handle_write_char(char c, char buffer[],
 }
 /**
  * write_number -  this prints a string
- * nurudeen
  * @is_negative: number is negative
  * @ind: Index buffer
  * @buffer:chars
@@ -53,7 +52,6 @@ int handle_write_char(char c, char buffer[],
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
  * Return: chars.
  */
 int write_number(int is_negative, int ind, char buffer[],
@@ -86,7 +84,6 @@ int write_number(int is_negative, int ind, char buffer[],
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
  * Return: chars.
  */
 int write_num(int ind, char buffer[],
@@ -144,7 +141,6 @@ int write_num(int ind, char buffer[],
  * @width: this is the width specifier
  * @precision: this shows the precision specifier
  * @size: this is the size specifier
- * adel
  * Return: chars.
  */
 int write_unsgnd(int is_negative, int ind,
@@ -194,16 +190,15 @@ int write_unsgnd(int is_negative, int ind,
 }
 
 /**
- * write_pointer -  This write a memory address
+ * write_pointer - This write a memory address
  * @buffer: This is an arrays of chars
  * @ind: this is the Index at which the number in the buffer starts
  * @length: this is the length of number
  * @width: this is the width specifier
- * @flags: Flcags
+ * @flags: Flags
  * @padd: Character represeting the padd
  * @extra_c: character representin extra char
  * @padd_start: pointer index
- * adel
  * Return: chars.
  */
 int write_pointer(char buffer[], int ind, int length,
