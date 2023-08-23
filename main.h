@@ -20,6 +20,10 @@
 
 /**
  * struct fmt - Struct op
+<<<<<<< HEAD
+=======
+ * written by kelvin
+>>>>>>> 8e757af61169487b4ec8533defc8915414125162
  * @fmt: The format.
  * @fn: The function associated.
  */
